@@ -1,13 +1,15 @@
 .inline-block {
-    vertical-align: top;
+    display: inline-block;
+    vertical-align: text-top;
 }
 
 .logo {
     width: 23%;
+    padding: 1%;
     text-align: center;
 }
 
-.navigation {
+.nav {
     width: 73%;
     padding: 1%;
 }
