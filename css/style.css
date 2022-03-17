@@ -1,12 +1,39 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: text-top;
+.logo {
+    position: absolute;
+  top: 6px;
+  right: 50%;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
 }
 
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+.gradLines {
+    margin-top: 10px;
+    height: 50px;
+}
+
+.GLblack {
+    background-color: #000;
+    height: 2px;
+    opacity: 100%;
+}
+
+.GLdarkGray {
+    background-color: #000;
+    height: 2px;
+    opacity: 75%
+}
+
+.GLlightGray {
+    background-color: #000;
+    height: 2px;
+    opacity: 50%;
+}
+
+.GLlightestGray {
+    background-color: #000;
+    height: 2px;
+    opacity: 25%;
 }
 
 .nav {
@@ -14,7 +41,37 @@
     padding: 1%;
 }
 
+.menuLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menuRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .ul {
     width: 50%;
     margin-left: auto;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px; 
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row; 
+    justify-content: space-around;
+    background-color: #373738;
+    color: white;
 }
