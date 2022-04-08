@@ -1,14 +1,11 @@
 .logo {
-    position: absolute;
-  top: 6px;
-  right: 50%;
-  width: 50px;
-  height: 50px;
-  justify-content: center;
-}
+    position: relative;
+    position: center;
+    top: 0;
+    z-index: 1;
+} 
 
 .gradLines {
-    margin-top: 10px;
     height: 50px;
 }
 
@@ -36,42 +33,90 @@
     opacity: 25%;
 }
 
-.nav {
-    width: 73%;
-    padding: 1%;
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .menuLeft {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start space-evenly;
+    align-items: center;
 }
 
 .menuRight {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end space-around;
 }
 
-.ul {
-    width: 50%;
-    margin-left: auto;
+.contentImages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-evenly;
 }
 
-.heroImg {
-    height: 600px;
-    padding: 25px;
+
+#headshot {
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px;
+    border-color: black;
+    justify-content: center;
+    width: 250px;
+    pa
+}  
+
+#trooper {
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px;
+    border-color: black;
+    justify-content: center;
+    width: 250px;
 }
 
-.content {
-    width: 500px; 
-    margin: 0 auto;
+#moonbeam {
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px;
+    border-color: black;
+    justify-content: center;
+    width: 250px;
+}
+
+.contentLeft {
+    display: inline-block;
+    justify-content: left;
+    width: 25%;
+    padding: 50px;
+}
+
+.contentRight {
+    display: inline-block;
+    width: 25%;
+    padding: 50px;
+    justify-content: right;
 }
 
 .footer {
     display: flex;
     flex-flow: row; 
     justify-content: space-around;
+    align-items: center;
     background-color: #373738;
+    font-family: "Red Hat Display";
     color: white;
+    height: 100px;
+}
+
+.textLeft {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textRight {
+    font-family: Arial, Helvetica, sans-serif;
 }
