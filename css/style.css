@@ -43,20 +43,38 @@
 .menuLeft {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start space-evenly;
+    justify-content: center space-around;
     align-items: center;
 }
 
 .menuRight {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end space-around;
+    justify-content: center space-around;
+}
+
+#menuAbout {
+    display: flex;
+    flex-direction: row;
+    padding: 50%;
+}
+
+#menuWork {
+    display: flex;
+    flex-direction: row;
+    padding: 50%;
+    justify-content: center;
 }
 
 .contentImages {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    width: 25%;
     justify-content: center space-evenly;
+    position: center;
+}
+
+.heroImg {
+    position: center;
 }
 
 
@@ -67,7 +85,6 @@
     border-color: black;
     justify-content: center;
     width: 250px;
-    pa
 }  
 
 #trooper {
@@ -108,7 +125,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #373738;
-    font-family: "Red Hat Display";
+    font-family: "Roboto";
     color: white;
     height: 100px;
 }
